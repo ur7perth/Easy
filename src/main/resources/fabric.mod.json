@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "easykillmobs",
+  "version": "${version}",
+  "name": "EasyKillMobs",
+  "description": "A configurable client-side helper for attacking the entity under your crosshair.",
+  "authors": [
+    "EasyKillMobs"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.easykillmobs.EasyKillMobsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
